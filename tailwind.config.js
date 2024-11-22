@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "hero": "url(/Azfa-hero-image.png)"
+      }
+    },
   },
   plugins: [],
 }

@@ -14,11 +14,11 @@ export default function Navbar() {
                 </div>
 
                 <div className="hidden md:flex gap-8 items-center">
-                    <Navlink>Home</Navlink>
-                    <Navlink>Services</Navlink>
-                    <Navlink>About Me</Navlink>
-                    <Navlink>Portofolio</Navlink>
-                    <Navlink>Contact Me</Navlink>
+                    <Navlink href="#hero">Home</Navlink>
+                    <Navlink href="#services">Services</Navlink>
+                    <Navlink href="#about">About Me</Navlink>
+                    <Navlink href="#projects">Portofolio</Navlink>
+                    <Navlink href="#contact">Contact Me</Navlink>
                 </div>
 
                 <div className="hidden md:block">

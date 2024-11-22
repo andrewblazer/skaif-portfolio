@@ -27,11 +27,9 @@ export default function Projects() {
     }, [activeTabs]);
 
     return (
-        <section className="my-20 md:my-40 px-4 md:px-8 lg:px-16 flex flex-col items-center">
-            {/* Headings */}
+        <section id='projects' className="scroll-m-24 my-20 md:my-40 px-4 md:px-8 lg:px-16 flex flex-col items-center">
             <div className="flex flex-col items-center gap-4 mb-10">
                 <Headings title="Portfolio" />
-                {/* Categories */}
                 <div className="flex flex-wrap justify-center gap-3">
                     {categories.map((item, index) => (
                         <CategoryBtn
@@ -43,8 +41,6 @@ export default function Projects() {
                     ))}
                 </div>
             </div>
-
-            {/* Projects Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-screen-xl">
                 {viewedProject.map((project, index) => (
                     <ProjectCard project={project} key={index} />

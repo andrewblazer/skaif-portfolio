@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Navlink({ children }) {
+export default function Navlink({ children, href }) {
     return (
         <a
             className="
@@ -16,6 +16,7 @@ export default function Navlink({ children }) {
                 transition-all ease-in-out
                 px-2 sm:px-4 py-1 sm:py-2
             "
+            href={href}
         >
             {children}
         </a>

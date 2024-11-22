@@ -11,7 +11,7 @@ import re from "../assets/RE.png";
 
 export default function Services() {
   return (
-    <section className="flex flex-col items-center px-4 md:px-6 lg:px-8">
+    <section id="services" className="scroll-m-24 flex flex-col items-center px-4 md:px-6 lg:px-8">
       {/* Headings */}
       <Headings
         title="Services"
@@ -27,12 +27,12 @@ export default function Services() {
         />
         <ServiceCard
           title="Backend Development"
-          description="Build scalable APIs and services using modern backend technologies."
+          description="Develop scalable APIs in  modern backend like Laravel, ExpressJS."
           logo={backend}
         />
         <ServiceCard
           title="Mobile Development"
-          description="Create responsive and high-performing mobile apps with React Native or Flutter."
+          description="Create responsive and high-performing mobile apps with Kotlin or Flutter."
           logo={mobile}
         />
         <ServiceCard
@@ -42,12 +42,12 @@ export default function Services() {
         />
         <ServiceCard
           title="UI Design"
-          description="Design user-friendly and visually appealing interfaces using Figma."
+          description="Design user-friendly design interfaces using Figma."
           logo={ui}
         />
         <ServiceCard
           title="Reverse Engineering"
-          description="Analyze and reconstruct software systems for understanding or improvement."
+          description="Reconstruct software systems for improvement. Primarily on Android libs"
           logo={re}
         />
       </div>
