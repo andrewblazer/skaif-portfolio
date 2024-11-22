@@ -20,18 +20,18 @@ export const projects = [
         "name": "SMKCreative",
         "categories": "Landing Page",
         "thumb": smkcreative,
-        "link": "/src/assets/smkcreative.svg",
+        "link": "https://tefa.pplg.smkn2sumedang.sch.id",
     },
     {
         "name": "E-commerce (Innovation Champion@UPI)",
         "categories": "Ecommerce Platform",
         "thumb": ecommerce,
-        "link": "/src/assets/ecommerce.svg",
+        "link": "https://pameran.hexatechnoiu.my.id",
     },
     {
         "name": "NOIU Event Organizer",
         "categories": "Ecommerce Platform",
         "thumb": noiu,
-        "link": "/src/assets/smkcreative.svg",
+        "link": "https://ecommerce.hexatechnoiu.my.id",
     },
 ]
