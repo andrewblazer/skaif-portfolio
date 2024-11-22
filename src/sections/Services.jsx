@@ -20,7 +20,6 @@ export default function Services() {
 
       {/* Services Grid */}
       <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-10 max-w-screen-lg w-full">
-        <image />
         <ServiceCard
           title="Frontend Development"
           description="Beginner Javascript Framework like React & Vue. Implemented something."

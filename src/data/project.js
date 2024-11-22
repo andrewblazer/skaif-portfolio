@@ -1,32 +1,37 @@
+import tefa from "../assets/tefa.svg";
+import sipentaskumis from "../assets/sipentaskumis.svg";
+import smkcreative from "../assets/smkcreative.svg";
+import ecommerce from "../assets/ecommerce.svg";
+import noiu from "../assets/noiu.svg";
 export const projects = [
     {
         "name": "E-commerce Teaching Factory",
         "categories": "Ecommerce Platform",
-        "thumb": "/src/assets/tefa.svg",
+        "thumb": tefa,
         "link": "https://store.hexatechnoiu.my.id",
     },
     {
         "name": "SIPENTASKUMIS",
         "categories": "Voting Platform",
-        "thumb": "/src/assets/sipentaskumis.svg",
+        "thumb": sipentaskumis,
         "link": "https://sipentaskumis.smkn2sumedang.sch.id",
     },
     {
         "name": "SMKCreative",
         "categories": "Landing Page",
-        "thumb": "/src/assets/smkcreative.svg",
+        "thumb": smkcreative,
         "link": "/src/assets/smkcreative.svg",
     },
     {
         "name": "E-commerce (Innovation Champion@UPI)",
         "categories": "Ecommerce Platform",
-        "thumb": "/src/assets/ecommerce.svg",
+        "thumb": ecommerce,
         "link": "/src/assets/ecommerce.svg",
     },
     {
         "name": "NOIU Event Organizer",
         "categories": "Ecommerce Platform",
-        "thumb": "/src/assets/noiu.svg",
+        "thumb": noiu,
         "link": "/src/assets/smkcreative.svg",
     },
 ]
